@@ -1,0 +1,13 @@
+label{
+    font-size:12px
+}
+.d-disabled{
+    opacity: 0.6;
+    input{
+        text-transform: uppercase;
+    }
+    input, label{
+        cursor:no-drop;
+
+    }
+}

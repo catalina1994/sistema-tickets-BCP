@@ -1,0 +1,63 @@
+header{
+    background-color: $color_primary;
+    color: #fff;
+}
+.d-title{
+    color: #fff;
+    line-height: 1;
+    padding: .5em 0;
+    @include mediaQ(600px){
+      padding: 0;
+      text-align: left;
+      padding-left: 1em;
+      border-left: 1px solid rgba(255, 255, 255, 0.4);
+    }
+    h1{
+        font-size: 20px;
+        margin: 0;
+        line-height: 1;
+        //font-family: $font_text_bold;
+    }
+
+}
+.d-logo{
+    display: none;
+    height: 55px;
+    width: 160px;
+  @include mediaQ(600px){
+    display: block;
+    padding-right: 1em;
+  }
+  &-mobil{
+    display: block;
+    height: 4.5em;
+    width: 160px;
+    margin: .5em auto;
+    @include mediaQ(600px){
+        display: none;
+    }
+  }
+  }
+
+//menu
+
+.navbar{
+  padding: .5rem 0;
+}
+.navbar-nav{
+  @include mediaQ(992px){
+      position: relative;
+      width: 100%;
+  }
+  .nav-item:last-child{
+      @include mediaQ(992px){
+          position: absolute;
+          right: 0;
+      }
+  }
+}
+  
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+  
+}

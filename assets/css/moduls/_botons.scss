@@ -1,0 +1,20 @@
+//btn
+.btn-pri{
+    color: $color-light-text;
+    background-color: $color_secondary;
+    border: 1px solid $color_secondary;
+    &:hover{
+      color: #fff;
+      background-color: darken($color_secondary, 4);
+    }
+  }
+
+  .btn-sec{
+    color: $color_secondary;
+    background-color: #fff;
+    border: 1px solid $color_secondary;
+    &:hover{
+      color: #fff;
+      background-color: darken($color_secondary, 4);
+    }
+  }

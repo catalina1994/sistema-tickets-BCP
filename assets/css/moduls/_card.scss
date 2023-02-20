@@ -1,0 +1,65 @@
+.d-card{
+  border: 1px solid #C1C1C1;
+  border-radius:8px;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 10px;
+  &-header{
+    padding: 20px;
+    position: relative;
+  }
+  &-body{
+    padding: 20px 25px;
+    background-color: #F6F6F6;
+    @include mediaQ(992px){
+      border-left: 1px solid #C1C1C1;
+  }
+  }
+  &-subtitle{
+    color: $color_primary;
+  }
+  &-title{
+    color: $color_secondary;
+    display: flex;
+    align-items: center;
+    img{
+      width: 35px;
+      margin: 0;
+      margin-right: 10px;
+    }
+  }
+}
+
+// Card-log-in
+
+.d-cardInfo{
+  border-radius: 8px;
+  border: 1px solid #1DB0EF;
+  color: $color_primary;
+  background-color: #51BBE929;
+  padding: 15px;
+  display: flex;
+  margin-bottom: 10px;
+  @include mediaQ(768px){
+    display: block;
+  }
+  @include mediaQ(992px){
+    display: flex;
+}
+  &-title{
+    font-size:16px;
+    margin-bottom: 8px;
+  }
+  p{
+    line-height:1;
+    margin-bottom: 5px;
+  }
+  &-img{
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    @include mediaQ(992px){
+      margin-bottom: 0;
+    }
+  }
+  }

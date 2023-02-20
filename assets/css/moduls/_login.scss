@@ -1,0 +1,21 @@
+.login-content{
+    color: #fff;
+    &-title{
+        font-weight: 600;
+    }
+    .login-content-logo{
+        display: inline-flex;
+        text-align:center;
+        align-items: center;
+    }
+    .d-logo{
+        display: block;
+    }
+    &-link a{
+        color: #fff;
+        
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

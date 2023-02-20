@@ -1,0 +1,75 @@
+  //footer
+  .d-footer {
+    //opacity: .3;
+    font-family: "Roboto-Light";
+    background-color: $color_primary;
+    color: $color_light-text;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    padding: 1px 0;
+    .container{
+        opacity: .4;
+        @include mediaQ(769px){
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+    }
+    p{
+        font-size: 12px;
+    }
+  }
+//icon-browser
+.d-browser{
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    .icon-center {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .svg-icon.medium {
+        height: 2.5em;
+        width: 2.5em;
+    }
+    .icon-browser{
+        margin-left: -5px;
+    }
+  }
+
+//footer
+.mobil-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 2px -1px 5px #ccced0;
+    padding: .5em 0;
+    @include mediaQ(600px){
+      display: none;
+    }
+  }
+
+//contactos
+.d-contac{
+  opacity: .7;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  left: 20px;
+  display: none;
+  @include mediaQ(768px){
+    display: block;
+  }
+  &-title{
+    font-size: 14px;
+    border-bottom: 1px solid #afabab;
+  }
+  p{
+    line-height: 1.2;
+    font-size: 12px;
+  }
+}
