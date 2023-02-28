@@ -1,0 +1,18 @@
+.d-report{
+    
+    border: 1px solid #C1C1C1;
+    border-radius:8px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding:25px 10px;
+    &-date{
+        text-align: right;
+    }
+    &-title{
+        text-align: center;
+        color: $color_primary;
+        margin-bottom: 20px;
+    }
+    
+    
+}

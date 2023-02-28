@@ -1,4 +1,10 @@
+.d-fondo-blue {
+    flex-grow: 2;
+    position: relative;
+    background: linear-gradient(290.97deg, #014170 35.58%, #0D6AAE 103.41%);
+}
 .login-content{
+
     color: #fff;
     &-title{
         font-weight: 600;

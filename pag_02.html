@@ -612,8 +612,8 @@
                  <div class="d-card row">
                     <article class="col-md-4 col-lg-3 d-card-header">
                         <h5 class="mb-4 d-card-title">
-                            <img src="assets/img/ico-user.svg" alt="icono de usuario">
-                            <strong>Valida tus datos</strong></h5>
+                            <img src="assets/img/ico-billetes.svg" alt="icono de usuario">
+                            <strong>Tributo a pagar</strong></h5>
                         <div class="d-cardInfo">
                             <img src="assets/img/icon-pago.svg" alt="icono de monedas"  class="d-cardInfo-img">
                             <div>
@@ -628,71 +628,31 @@
                     </article>
                     <article class="col-md-8 col-lg-9 d-card-body">
                         <form>
-                            <p class="d-card-subtitle mb-1"><strong>Datos Personales</strong></p>
+                            <h4 class=" mb-3"><strong>Nª de DNI 12345678</strong></h4>
                             <div class="row gx-2 mb-2">
-                                <div class="form-group col-8 col-sm-8 col-md-3 col-lg-3 mb-2">
-                                    <label for="numberDNI">Nro. de DNI</label>
-                                    <input type="text" class="form-control" id="numberDNI" aria-describedby="Ingresar DNI" maxlength="8">
-                                </div>
-                                <div class="form-group col-4 col-sm-4 col-md-3 col-lg-2 mb-2">
-                                    <label for="codVerificacion">Cod. Verificación</label>
-                                    <input type="text" class="form-control" id="codVerificacion" >
-                                </div>
-                                <div class="form-group col-12 col-sm-12 col-md-6 col-lg-3 mb-2">
-                                    <label for="codVerificacion">Fecha de Nacimiento</label>
-                                    <input type="text" class="form-control" id="codVerificacion" >
+                                <div class="form-group col-12 col-sm-12 col-md-12 col-lg-6 mb-2">
+                                    <label for="tributo">Tributo</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Seleccionar</option>
+                                        <option value="1">00523 - DUPLICADO DE DNI MAYORES EN AGENCIA</option>
+                                        <option value="2">00523 - DUPLICADO DE DNI MAYORES EN AGENCIA</option>
+                                      </select>
                                 </div>
                             </div>
-                            <p class="d-card-subtitle mb-1"><strong>Datos de tus padres</strong></p>
                             <div class="row gx-2 mb-2">
                                 <div class="form-group col-12 col-sm-6 col-md-6 col-lg-3 mb-2">
-                                    <label for="namePadre">Nombre del Padre</label>
-                                    <input type="text" class="form-control" id="namePadre" >
+                                    <label for="monto">Monto(S/)</label>
+                                    <input type="text" class="form-control" id="monto" disabled >
                                 </div>
                                 <div class="form-group col-12 col-sm-6 col-md-6 col-lg-3 mb-2">
-                                    <label for="nameMadre">Nombre del Madre</label>
-                                    <input type="text" class="form-control" id="nameMadre" >
+                                    <label for="email">E-mail</label>
+                                    <input type="email" class="form-control" id="email" >
                                 </div>
                                 
                             </div>
-                            <p class="d-card-subtitle mb-1"><strong>Lugar de Nacimiento</strong></p>
-                            <div class="row gx-2 mb-2">
-                                <div class="form-group col-12 col-sm-6 col-md-6 col-lg-3 mb-2">
-                                    <label for="lugar">Lugar</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Seleccionar</option>
-                                        <option value="1">Perú</option>
-                                        <option value="2">Extranjero</option>
-                                      </select>
-                                </div>
-                                <div class="form-group col-12 col-sm-6 col-md-6 col-lg-3 mb-2">
-                                    <label for="pepartamento">Departamento</label>
-                                    <select class="form-select" aria-label="Seleccionar">
-                                        <option selected>Seleccionar</option>
-                                        <option value="1">Perú</option>
-                                        <option value="2">Extranjero</option>
-                                      </select>
-                                </div>
-                                <div class="form-group col-12 col-sm-6 col-md-6 col-lg-3 mb-2">
-                                    <label for="provincia">Provincia</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Seleccionar</option>
-                                        <option value="1">Perú</option>
-                                        <option value="2">Extranjero</option>
-                                      </select>
-                                </div>
-                                <div class="form-group col-12 col-sm-6 col-md-6 col-lg-3 mb-2">
-                                    <label for="distrito">Ditrito</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Seleccionar</option>
-                                        <option value="1">Perú</option>
-                                        <option value="2">Extranjero</option>
-                                      </select>
-                                </div>
-                            </div>
                         </form>
                         <div class="form-group col-12 col-sm-12 col-md-6  col-lg-3 mb-2 ">
-                            <a href="pag_02.html" class="btn btn-light btn-pri btn-block">Validar Datos</a>
+                            <a href="pag_02.html" class="btn btn-light btn-pri btn-block">Enviar</a>
                             <!-- <button type="button" class="btn btn-light btn-pri btn-block">Generar Preguntas </button> -->
                         </div>
                     </article>
