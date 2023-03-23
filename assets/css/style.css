@@ -468,6 +468,26 @@ label {
   }
 }
 
+.d-card-noti {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #EBEBEB;
+  padding: 15px 5px;
+  margin-bottom: 3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.d-card-noti p {
+  font-size: 14px;
+  line-height: 1.2;
+  color: #707070;
+  margin: 0;
+  width: 75%;
+}
+
 .btn {
   font-size: 16px;
   min-width: 100px;
