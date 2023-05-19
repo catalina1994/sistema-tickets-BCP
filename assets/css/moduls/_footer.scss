@@ -7,9 +7,12 @@
     align-items: center;
     text-align: center;
     font-weight: 300;
-    padding: 1px 0;
+    padding: 7px 0;
+    @include mediaQ(769px){
+      padding: 1px 0;
+    }
     .container{
-        opacity: .4;
+        opacity: .3;
         @include mediaQ(769px){
             display: flex;
             align-items: center;
@@ -18,6 +21,7 @@
     }
     p{
         font-size: 12px;
+        line-height: 1.1;
     }
   }
 //icon-browser

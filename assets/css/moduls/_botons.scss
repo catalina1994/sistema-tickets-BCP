@@ -1,7 +1,13 @@
 //btn
 .btn{
   font-size:16px;
-  min-width: 100px
+  width: 100%;
+  margin-bottom: 5px;
+  @include mediaQ(600px){
+    min-width: 100px;
+    width: initial;
+    
+  }
 }
 .btn-pri{
     color: $color-light-text;
